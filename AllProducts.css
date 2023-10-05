@@ -1,0 +1,112 @@
+@charset "utf-8";
+@font-face {
+  font-family: Roboto;
+  src: url(font/RobotoCondensed-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(font/RobotoCondensed-Bold.ttf);
+  font-weight: bold;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Roboto";
+  background-color: white;
+}
+#main-content {
+  display: flex;
+  min-height: 500px;
+  float: left;
+}
+#side-bar {
+  flex-basis: 30%;
+  position: relative;
+  left: 15rem;
+}
+.price {
+  font-size: 18px;
+}
+.arrange {
+  padding-left: 11.5rem;
+  position: relative;
+  bottom: 0.4rem;  
+}
+
+#content {
+  flex-basis: 70%;
+  position: relative;
+  left: 18rem;
+  padding-top: 1rem;
+}
+.choice {
+  display: inline-block;
+  padding-top: 2rem;
+}
+.product_box {
+  width: 10rem;
+  position: relative;
+  float: left;
+  padding: 3px;
+}
+.item {
+  margin-top: 25px;
+}
+.picture_banner img {
+  border-radius: 12px;
+  width: 840px;
+  height: 340px;
+}
+.coll-name {
+  font-size: 32px;
+  font-family: "Roboto";
+}
+.combobox {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  padding-left: 0.5rem;
+}
+.arrange {
+  font-size: 17px;
+}
+.product_box {
+  width: 12rem;
+  position: relative;
+  padding: 0.5rem;
+}
+.pro_title a {
+  color: black;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-size: 18px;
+}
+.pro_img {
+  overflow: hidden;
+}
+.pro_img :hover {
+  transform: scale(1.1);
+}
+.pro_img img {
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+}
+.clear {
+  clear: both;
+}
+.price-1 {
+  margin-top: 15px;
+  color: #f00;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+
+.old-price {
+  text-decoration-line: line-through;
+  color: #d0d3d4;
+  font-weight: normal;
+}
+
+#red{
+  color: #f00;
+}

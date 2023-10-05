@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Product_sale.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/webicon.png" />
+    <title>WEGOTSOCCER.SHOP</title>
+  </head>
+  <body>
+    <div id="contains">
+      <div id="header">
+        <div id="logo">
+          <a href="index.html"><img src="images/logo2.png" width="80%" /></a>
+        </div>
+        <input id="search" type="text" placeholder="    Tìm kiếm sản phẩm..." />
+        <button class="search_bttn">
+          <img width="30" height="28" src="images/icon-search.webp" />
+        </button>
+        <button class="icon">
+          <a href="login.html">
+            <img width="30" height="30" src="images/icon-user.png"
+          /></a>
+        </button>
+        <button class="icon">
+          <a href="cart.html">
+            <img width="30" height="30" src="images/icon-bag.png"
+          /></a>
+        </button>
+        <button class="icon">
+          <img width="30" height="30" src="images/flag.png" />
+        </button>
+      </div>
+      <div class="menu">
+        <div id="menu_content">
+          <ul id="menu-bar">
+            <li>
+              <a href="index.html"> TRANG CHỦ</a>
+            </li>
+            <li><a href="AllProduct.html">TẤT CẢ SẢN PHẨM</a></li>
+            <li><a href="Shoes.html">GIÀY THỂ THAO</a></li>
+            <li><a href="Clothes.html">QUẦN ÁO BÓNG ĐÁ</a></li>
+            <li><a href="Equipment.html">DỤNG CỤ</a></li>
+            <li><a href="Accessory.html">PHỤ KIỆN</a></li>
+            <li><a href="HotSale.html">HOT SALE</a></li>
+            <li><a href="Khachhang.html">KHÁCH HÀNG</a></li>
+            <li><a href="TuyenDung.html">TUYỂN DỤNG</a></li>
+            <li><a href="LIENHE.html">LIÊN HỆ</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="pro_show">
+        <div class="column side">
+          <a href=""
+            ><img
+              src="images/giay-sa-ban.jpg"
+              id="img-main"
+              height="416px"
+              width="416px"
+              alt="buyitem"
+            />
+          </a>
+          <ul class="left-image">
+            <li>
+              <img
+                src="images/giay-sa-ban.jpg"
+                onclick="changeImage('one')"
+                id="one"
+              />
+            </li>
+            <li>
+              <img
+                src="images/product/saban1.webp"
+                onclick="changeImage('two')"
+                id="two"
+              />
+            </li>
+            <li>
+              <img
+                src="images/product/saban1.webp"
+                onclick="changeImage('three')"
+                id="three"
+              />
+            </li>
+            <li>
+              <img
+                src="images/product/saban1.webp"
+                onclick="changeImage('four')"
+                id="four"
+              />
+            </li>
+          </ul>
+        </div>
+        <script src="JavaScript.js"></script>
+        <div id="pro_name">
+          <a href="">ADIDAS PREDATOR EDGE.1 TF - GZ6448 - TÍM/HỒNG</a>
+          <div id="pro_price">
+            <br />
+            2.950.000 <span style="text-decoration: underline">đ</span>
+          </div>
+          <div id="pro_id">
+            <p>
+              Loại: Giày Cỏ Nhân Tạo (Turf)<br />
+              Mã SP: GZ6448-39-1-3<br />
+              Trạng thái: <span id="green">Còn 50 sản phẩm </span>
+            </p>
+          </div>
+          <div id="pro_id">
+            <h3>Kích thước :</h3>
+            <input class="radio" type="radio" name="size" />
+            <label> 39</label>
+            <input class="radio" type="radio" name="size" />
+            <label>40</label>
+            <input class="radio" type="radio" name="size" />
+            <label>41</label>
+            <input class="radio" type="radio" name="size" />
+            <label>42</label>
+            <input class="radio" type="radio" name="size" />
+            <label>43</label>
+            <input class="radio" type="radio" name="size" />
+            <label>44</label>
+            <input class="radio" type="radio" name="size" />
+            <label>45</label>
+            <input class="radio" type="radio" name="size" />
+            <label>46</label>
+          </div>
+          <div id="pro_id">
+            <h3>Số lượng :</h3>
+            <span><input type="number" min="0" max="50" value="0" /></span>
+            <a href="">
+              <button class="pro_card">Thêm vào giỏ hàng</button>
+            </a>
+          </div>
+        </div>
+        <div>
+          <a href="">
+            <button id="buy_now">MUA NGAY</button>
+          </a>
+        </div>
+        <div class="uudai_box">
+          <hr />
+          <div id="special_m">
+            <img
+              src="images/pd_policy_1_img.webp"
+              width="80px"
+              height="auto"
+              alt="specialmembers"
+            />
+          </div>
+          <div id="title_m">
+            <div id="toptitle_m">ƯU ĐÃI TẶNG KÈM<br /></div>
+            <div>
+              <p>
+                Tặng kèm vớ dệt kim và balô chống thấm đựng giày cho mỗi đơn
+                hàng Giày đá bóng trên 1 triệu.
+              </p>
+            </div>
+          </div>
+          <div id="special_m">
+            <img
+              src="images/trade.webp"
+              width="80px"
+              height="auto"
+              alt="specialmembers"
+            />
+          </div>
+          <div id="title_m">
+            <div id="toptitle_m">DỄ DÀNG ĐỔI TRẢ<br /></div>
+            <div>
+              <p>
+                Tặng kèm vớ dệt kim và balô chống thấm đựng giày cho mỗi đơn
+                hàng Giày đá bóng trên 1 triệu.
+              </p>
+            </div>
+          </div>
+          <div id="special_m">
+            <img
+              src="images/ship.webp"
+              width="80px"
+              height="auto"
+              alt="specialmembers"
+            />
+          </div>
+          <div id="title_m_1">
+            <div id="toptitle_m">VẬN CHUYỂN<br /></div>
+            <div>
+              <p>
+                COD Toàn quốc | Freeship toàn quốc khi khách hàng thanh toán
+                chuyển khoản trước với đơn <br />hàng giày đá bóng trên 1 triệu.
+              </p>
+            </div>
+          </div>
+          <div id="special_m">
+            <img
+              src="images/atm.webp"
+              width="80px"
+              height="auto"
+              alt="specialmembers"
+            />
+          </div>
+          <div id="title_m_2">
+            <div id="toptitle_m">THANH TOÁN<br /></div>
+            <div>
+              <p>
+                Chấp nhận các loại hình thanh toán bằng thẻ, tiền mặt, chuyển
+                khoản
+              </p>
+            </div>
+          </div>
+          <div class="clear2"></div>
+          <div class="clear2"></div>
+          <div class="pro_info">
+            <div id="bottom_menu">
+              <ul id="list-bar">
+                <li><a href="#">MÔ TẢ SẢN PHẨM</a></li>
+                <li><a href="#">CHÍNH SÁCH BẢO HÀNH</a></li>
+                <li><a href="#">TƯ VẤN CHỌN GIÀY</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear2"></div>
+      <div class="item_contact">
+        <div class="hotline_item">
+          <a href="tel:0123456789"
+            ><img
+              title="Hãy gọi cho chúng tôi"
+              src="images/Icon/telephone.png"
+              alt="phone-icon"
+              width="40"
+              height="40"
+          /></a>
+        </div>
+        <div class="zalo_item">
+          <a href="https://zalo.me/0123456789" target="_blank"
+            ><img
+              title="Hãy chat với chúng tôi với Zalo"
+              src="images/Icon/icons8-zalo-512.png"
+              alt="zalo-icon"
+              width="50"
+              height="50"
+          /></a>
+        </div>
+        <div class="facebook_item">
+          <a
+            href="https://www.facebook.com/profile.php?id=100015401380015"
+            target="_blank"
+            ><img
+              title="Facebook của chúng tôi"
+              src="images/Icon/facebook.png"
+              alt="facebook-icon"
+              width="40"
+              height="40"
+          /></a>
+        </div>
+        <div class="Messenger_item">
+          <a href="https://m.me/100015401380015" target="_blank"
+            ><img
+              title="Hãy chat với chúng tôi với Messenger"
+              src="images/Icon/messenger.png"
+              alt="messenger_icon"
+              width="40"
+              height="40"
+          /></a>
+        </div>
+      </div>
+      <hr />
+      <div class="clear2"></div>
+      <div id="footer">
+        <div id="footer_info">
+          <div>
+            <img
+              src="images/logo2.png"
+              alt="wegotsoccer"
+              height="100px"
+              width="200px"
+            />
+          </div>
+          <br /><br /><br /><br />
+          <b> Copyright&copy; Web quản lý bán đồ thể thao</b><br />
+          Nhóm 100 : PHAN ĐỨC TIẾN & NGUYỄN PHI HIẾU<br />
+          Mail: DH52005810@student.stu.edu.vn || DH52006111@student.stu.edu.vn
+        </div>
+        <div id="moveon">
+          <div class="under_footer">
+            <ul>
+              <b>HỖ TRỢ </b
+              ><br /><br />
+              <li><a href="#">Cam kết từ WEGOTSOCCER</a></li>
+              <li><a href="#">Hướng dẫn chọn size</a></li>
+              <li><a href="#">Hướng dẫn mua hàng</a></li>
+              <li><a href="#">Hướng dẫn đặt hàng online</a></li>
+              <li><a href="#">Quy định đổi hàng</a></li>
+              <li><a href="#">Chính sách bảo hành</a></li>
+              <li><a href="#">Chính sách vận chuyển</a></li>
+              <li><a href="#">Ưu đãi quà tặng</a></li>
+              <li><a href="#">WEGOTSOCCER MEMBERSHIP</a></li>
+              <li><a href="#">Chính sách bảo mật</a></li>
+              <li><a href="#">Hệ thống cửa hàng</a></li>
+              <li><a href="#">Tin tức giày</a></li>
+            </ul>
+          </div>
+
+          <div class="under_footer">
+            <ul>
+              <b>VỀ CHÚNG TÔI </b
+              ><br /><br />
+              <li><a>Nguyễn Phi Hiếu</a><br /><a>DH52005810</a></li>
+              <li></li>
+              <li><a>Phan Đức Tiến</a><br /><a>DH52006111</a></li>
+              <li>
+                <br />
+                <a
+                  href="https://www.facebook.com/profile.php?id=100015401380015"
+                  >Facebook <b>SV1</b></a
+                ><br />
+                <a
+                  href="https://www.facebook.com/profile.php?id=100040000417301"
+                  >Facebook <b>SV2</b></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="under_footer">
+            <ul>
+              <b>HƯỚNG DẪN ĐỒ ÁN </b
+              ><br /><br />
+              <li style="text-align: center"><a>Lê Triệu Ngọc Đức</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

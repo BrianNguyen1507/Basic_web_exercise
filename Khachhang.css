@@ -1,0 +1,52 @@
+@charset "utf-8";
+body
+{
+	background-color: white;
+}
+
+ul.list{
+	display: flex;
+}
+ul.list li{
+	overflow: hidden;
+	padding: 10px;
+	max-width: 524px;
+}
+ul.list li a img{
+	max-width: 100%;
+	transition: all  0.2s  ease-in-out;
+}
+
+ul.list li :hover img{
+	transform: scale(1.1);
+}
+
+
+.page_text p{
+	font-size: 20px;
+}
+
+.page_text {
+	margin-left: 100px;
+	margin-right: 50px;
+	width: 1200px;
+	padding: 14px;
+	background-color:whitesmoke;
+	font-size: 20px;
+	font-family: 'Roboto';
+	border-radius: 10px;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+	
+}
+.page_text p{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.page_text h2{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#Khachhang{
+	color: #F00;
+}

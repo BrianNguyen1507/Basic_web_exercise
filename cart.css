@@ -1,0 +1,165 @@
+@charset "utf-8";
+body
+{
+	font-family: 'Roboto';
+	background-color: white;
+}
+
+.page_text p{
+	font-size: 20px;
+}
+.page_text img{
+	padding: 10px;
+	border-radius: 20px;
+	margin-left: 100px;
+	margin-right: 50px;
+}
+.page_text {
+	width: 750px;
+	padding: 14px;
+	background-color:whitesmoke;
+	font-size: 20px;
+	font-family: 'Roboto';
+	border-radius: 10px;
+	margin-left: 35px;
+	margin-right: 50px;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+	
+}
+.page_text p{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.page_text h2{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.your_card ul{
+	margin-top: 20px;
+	display: flex;
+	justify-content: start;
+	
+}
+.col1{
+	font-weight: bold;
+}
+.col1 li{
+	margin-right: 5px;
+	
+}
+
+.col_end{
+	position: relative;
+	left: 150px;
+	font-weight: bold;
+	margin-left: 70px;
+}
+
+.pro_incard{
+	display:flex;
+	justify-content: end;
+	margin-right: -20px;
+}
+.pro_incard img{
+	height: 100px;
+	position: relative;
+	left: -120px;
+	width: 110px;
+	
+}
+.pro_incard li #money{
+	margin-right: 10px;
+	margin-left: 100px;
+	
+}
+
+.pro_incard p {
+margin-left:-10px ;
+font-size: 14px;
+margin-top: 12px;
+}
+
+.pro_incard li span{
+position: relative;
+top: 10px;
+}
+
+.pro_incard li input{
+	width: 40px;
+	height: 45px;
+	font-size: 14px;
+	text-align: center;
+	margin-left: 30px;
+	border-radius: 6px;
+	border: 0px solid black;
+	background-color: whitesmoke;
+}
+.pro_incard img{
+	transition:all 0.1s ease-in ;
+}
+.pro_incard :hover img{
+	transform: scale(1.1);
+}
+
+.button_cancel img{
+
+	position: absolute;
+	margin-top: 4px;
+	margin-left: -10px;
+	z-index: 99999;
+	transition:all 0.1s ease-in ;
+}
+
+.button_cancel :hover{
+	transform: scale(1.2);
+	
+}
+
+
+
+.contain_card{
+	padding: 10px;
+}
+
+.page_into_money{
+	
+	width: 470px;
+	height: 180px;
+	padding: 20px;
+	background-color:whitesmoke;
+	font-size: 20px;
+	font-family: 'Roboto';
+	border-radius: 10px;
+	
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+}
+
+.flex_box{
+	display: flex;
+	justify-content: start;
+}
+
+#button_pay input{
+	margin-left: 30px;
+	width: 300px;
+	font-family: 'Roboto';
+	height: 60px;
+	color: white;
+	background-color:#f9675f ;
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+	border-radius:12px ;
+	transition: all 0.2s ease-in-out;
+	box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.2);
+}
+
+#button_pay :hover{
+	transform: scale(1.1);
+	
+}
+
+.page_into_money p {
+	font-size: 20px;
+}
